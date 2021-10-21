@@ -10,7 +10,7 @@ function App() {
   const { width, height } = useViewport();
   const sampleURL =
     "https://juventudedesporto.cplp.org/files/sample-pdf_9359.pdf";
-  const localURL = "./assets/sample.pdf";
+  const localURL = "./assets/veranda.pdf";
   const [file, setFile] = useState(localURL);
   const [numPages, setNumPages] = useState(null);
 
